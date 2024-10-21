@@ -5,16 +5,12 @@ import React from 'react';
 const Checkout = () => {
   return (
     <div className="container mx-auto my-10 p-6 bg-gray-100 rounded-lg shadow-md">
-      {/* Coupon Section */}
       <div className="text-right text-sm mb-4">
         <a href="#" className="text-blue-600 hover:underline">
           Have a coupon? Click here to enter your code
         </a>
       </div>
-
-      {/* Main Billing & Additional Info Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Billing Details */}
         <div>
           <h2 className="text-xl font-bold mb-4">Billing details</h2>
           <form className="space-y-4">
@@ -34,8 +30,6 @@ const Checkout = () => {
             <input type="email" placeholder="Email address *" className="w-full p-2 border rounded-md" />
           </form>
         </div>
-
-        {/* Additional Information */}
         <div>
           <h2 className="text-xl font-bold mb-4">Additional information</h2>
           <textarea
@@ -44,8 +38,6 @@ const Checkout = () => {
           ></textarea>
         </div>
       </div>
-
-      {/* Order Summary */}
       <div className="my-8">
         <h2 className="text-xl font-bold mb-4">Your order</h2>
         <table className="w-full bg-white rounded-lg shadow-md text-left">
@@ -76,7 +68,6 @@ const Checkout = () => {
         </table>
       </div>
 
-      {/* Error Message */}
       <div className="bg-red-100 p-4 mb-6 rounded-lg">
         <p className="text-red-600">
           Sorry, it seems that there are no available payment methods for your state. Please contact us if you
@@ -84,7 +75,6 @@ const Checkout = () => {
         </p>
       </div>
 
-      {/* Place Order Button */}
       <div className="text-right">
         <button className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition duration-300">
           PLACE ORDER
