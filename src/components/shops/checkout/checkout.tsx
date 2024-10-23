@@ -4,7 +4,7 @@ import React from 'react';
 
 const Checkout = () => {
   return (
-    <div className="container mx-auto my-10 p-6 bg-gray-100 rounded-lg shadow-md">
+    <div className="container mx-auto my-10 p-6  rounded-lg shadow-md">
       <div className="text-right text-sm mb-4">
         <a href="#" className="text-blue-600 hover:underline">
           Have a coupon? Click here to enter your code

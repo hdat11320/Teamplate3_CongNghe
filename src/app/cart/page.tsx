@@ -1,11 +1,13 @@
-import Header from "@/components/header";
 import Footer from "@/components/footer";
-import Checkout from "@/components/shops/checkout/checkout";
+import Header from "@/components/header";
+import Cart from "@/components/shops/cart/cart";
+
+
 export default function Home() {
   return (
     <>
     <Header/>
-    <Checkout/>
+    <Cart/>
     <Footer/>
     </>
   );

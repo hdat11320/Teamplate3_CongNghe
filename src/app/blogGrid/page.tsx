@@ -1,11 +1,13 @@
-import Header from "@/components/header";
+import BlogGrid from "@/components/BlogGrid/BlogGrid";
 import Footer from "@/components/footer";
-import Checkout from "@/components/shops/checkout/checkout";
+import Header from "@/components/header";
+
+
 export default function Home() {
   return (
     <>
     <Header/>
-    <Checkout/>
+    <BlogGrid/>
     <Footer/>
     </>
   );

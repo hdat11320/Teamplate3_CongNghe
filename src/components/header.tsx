@@ -73,7 +73,7 @@ export default function Header() {
                         <a href="single-team.html">Single team</a>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="shop.html">Shop</a>
+                        <Link href="/shops">Shop</Link>
                         <ul className="sub-menu">
                           <li>
                             <Link href="/singleProduct">Single Product</Link>
@@ -82,7 +82,7 @@ export default function Header() {
                             <Link href="/checkout">Checkout Page</Link>
                           </li>
                           <li>
-                            <a href="cart-page.html">Cart Page</a>
+                            <Link href="/cart">Cart Page</Link>
                           </li>
                         </ul>
                       </li>
@@ -121,7 +121,7 @@ export default function Header() {
                     <a href="#">Projects</a>
                     <ul className="sub-menu">
                       <li>
-                        <a href="portfolio-masonry.html">Portfolio Masonry</a>
+                        <Link href="/Portfo">Portfolio Masonry</Link>
                       </li>
                       <li>
                         <a href="portfolio-carousel.html">Portfolio Carousel</a>
@@ -173,7 +173,7 @@ export default function Header() {
                         <a href="blog.html">Blog Listing</a>
                       </li>
                       <li>
-                        <a href="blog-grid.html">Blog Grid</a>
+                        <Link href="/blogGrid">Blog Grid</Link>
                       </li>
                       <li>
                         <a href="post.html">Blog Single</a>

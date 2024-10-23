@@ -1,14 +1,12 @@
-import Header from "@/components/header";
 import Footer from "@/components/footer";
-import ProductDetail from "@/components/shops/singleProduct/productDetail";
-import RelatedProducts from "@/components/shops/singleProduct/relateProduct";
-import ProductDetailTabs from "@/components/shops/singleProduct/tabs";
-import Banner from "@/components/shops/singleProduct/banner";
+import Header from "@/components/header";
+import Home1 from "@/components/home";
+
 export default function Home() {
   return (
     <>
     <Header/>
-    
+    <Home1/>
     <Footer/>
     </>
   );

@@ -2,6 +2,9 @@
 import { useState } from 'react';
 import React from 'react';
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+
 const ProductDetail = () => {
   const [quantity, setQuantity] = useState(1);
 
@@ -46,11 +49,11 @@ const ProductDetail = () => {
           <h2 className="text-3xl font-bold mb-2">T-Shirt with Logo</h2>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500 text-xl">
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
+            <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
             </span>
             <span className="ml-2 text-gray-600">(1 customer review)</span>
           </div>
